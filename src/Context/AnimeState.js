@@ -49,7 +49,7 @@ const AnimeState = (props) => {
         },
       });
       const RecentAnimeReleaseJson = await response.json();
-      // console.log(RecentAnimeReleaseJson)
+      console.log(RecentAnimeReleaseJson)
       setAnime(RecentAnimeReleaseJson);
     } catch (error) {
       console.log(error);

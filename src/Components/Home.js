@@ -1,5 +1,4 @@
-import React, { useContext, useEffect } from "react";
-import AnimeContext from "../Context/Animecontext";
+import React from "react";
 import RecentRelease from "./RecentRelease";
 
 const Home = (props) => {

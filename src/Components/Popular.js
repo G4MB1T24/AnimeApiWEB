@@ -5,6 +5,7 @@ const Popular = () => {
   const { Anime, GetPopularAnimes } = context;
   useEffect(() => {
     GetPopularAnimes();
+    // eslint-disable-next-line
   }, []);
 
   return (
